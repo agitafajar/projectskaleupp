@@ -1,0 +1,28 @@
+import { set } from '@/utils/vuex';
+
+export default {
+  setname: set('name'),
+  setyear_of_business: set('year_of_business'),
+  setbusiness_industriess: set('business_industriess'),
+  setis_owner: set('is_owner'),
+  setphone: set('phone'),
+  setemail: set('email'),
+  setsistem_dan_proses: set('sistem_dan_proses'),
+  setperforma_karyawan: set('performa_karyawan'),
+  setperforma_finansial: set('performa_finansial'),
+  setbilling_invoicing_dan_debitur: set('billing_invoicing_dan_debitur'),
+  setcash_flow: set('cash_flow'),
+  setcreditor_payment: set('creditor_payment'),
+  setwork_in_progress: set('work_in_progress'),
+  setproject_management: set('project_management'),
+  setquality: set('quality'),
+  setclient_servicing: set('client_servicing'),
+  setorganization_and_scheduling: set('organization_and_scheduling'),
+  setrisk_management: set('risk_management'),
+  setstaff_culture: set('staff_culture'),
+  setsustainability_and_reward: set('sustainability_and_reward'),
+  setbusiness_planning: set('business_planning'),
+  setgrowth_and_balance: set('growth_and_balance'),
+  setscreening: set('scrreening'),
+  setscore: set('score'),
+}
